@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheet.uss?fileID=7433441132597879392&amp;guid=a319234e02ba08941983651cb0074a9f&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1;">
+        <ui:VisualElement name="topScreen" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="topLeft" style="flex-grow: 1; color: rgb(255, 255, 255);">
+                <ui:Label tabindex="-1" text="Level 1 - 50x50" parse-escape-sequences="true" display-tooltip-when-elided="true" name="levelLabel" style="font-size: 40px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="topMiddle" style="flex-grow: 1;" />
+            <ui:VisualElement name="topRight" style="flex-grow: 1;">
+                <ui:VisualElement name="Score" style="flex-grow: 1; align-items: center; justify-content: center; align-self: flex-end;">
+                    <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="scoreLabel" style="-unity-font-style: italic; font-size: 40px; text-shadow: 0 20px 5px rgba(0, 0, 0, 0); letter-spacing: 10px; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="midScreen" style="flex-grow: 1; height: 80%; width: 100%;" />
+        <ui:VisualElement name="bottomScreen" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="playerInfo" style="flex-grow: 1; justify-content: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                <ui:VisualElement name="Health">
+                    <ui:Label tabindex="-1" text="Health" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="healthLabel" style="-unity-font-style: normal; font-size: 20%; -unity-text-align: upper-left; color: rgb(255, 255, 255); letter-spacing: 10px; -unity-text-outline-color: rgba(0, 0, 0, 0); text-shadow: 0 20px 5px rgba(0, 0, 0, 0.36);" />
+                    <ui:ProgressBar name="healthBar" title="100" value="83.7" style="width: auto; height: 20%; color: rgb(255, 255, 255); -unity-font-style: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:VisualElement style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

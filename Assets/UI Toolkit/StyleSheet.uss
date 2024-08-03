@@ -1,0 +1,92 @@
+* {
+    -unity-font: resource('Font/ThaleahFat');
+    -unity-font-definition: resource('Font/ThaleahFat SDF');
+}
+
+#healthBar .unity-progress-bar__progress {
+    background-color: rgb(211, 43, 43);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+
+#healthBar .unity-progress-bar__background {
+    background-color: rgb(118, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+
+.menu-button {
+    font-size: 220%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    transition-duration: 0.25s;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-button:hover {
+    font-size: 220%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    transition-duration: 1s;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.menu-button:focus {
+    font-size: 220%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    transition-duration: 0.25s;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.menu-text {
+    color: rgb(255, 255, 255);
+}
+
+#loadingBar .unity-progress-bar__progress {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    transition-duration: 0.5s;
+}
+
+#loadingBar .unity-progress-bar__background {
+    background-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}

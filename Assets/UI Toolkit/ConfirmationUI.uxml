@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheet.uss?fileID=7433441132597879392&amp;guid=a319234e02ba08941983651cb0074a9f&amp;type=3#StyleSheet" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(0, 0, 0); justify-content: center; align-items: center;">
+        <ui:Label tabindex="-1" text="Are You Sure?" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); font-size: 80%; -unity-text-align: upper-center;" />
+        <ui:Label tabindex="-1" text="Your progress Won&apos;t be saved" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); font-size: 40%; -unity-text-align: upper-center;" />
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Button text="No" parse-escape-sequences="true" display-tooltip-when-elided="true" name="noButton" class="menu-button" />
+            <ui:Button text="Yes" parse-escape-sequences="true" display-tooltip-when-elided="true" name="yesButton" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

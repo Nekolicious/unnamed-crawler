@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheet.uss?fileID=7433441132597879392&amp;guid=a319234e02ba08941983651cb0074a9f&amp;type=3#StyleSheet" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:VisualElement name="CreditWindow" style="width: 80%; height: 80%; background-color: rgb(0, 0, 0); justify-content: center; color: rgb(255, 255, 255); font-size: 40px; -unity-text-align: upper-center; align-self: center; align-items: center;">
+            <ui:Label tabindex="-1" text="Credit&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:ScrollView>
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="credit" />
+            </ui:ScrollView>
+            <ui:Button text="Close" parse-escape-sequences="true" display-tooltip-when-elided="true" name="creditClose" class="menu-button" style="font-size: 40px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

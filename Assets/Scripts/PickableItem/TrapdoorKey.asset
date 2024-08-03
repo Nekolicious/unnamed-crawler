@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f8e20a86a94414fb68f7a193ddcda7, type: 3}
+  m_Name: TrapdoorKey
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 6047853239188639983, guid: a0d3fbbc155eb404a87f827b40a48dfe, type: 3}
+  pickUpClip: {fileID: 8300000, guid: 16546f9c502b03f42bd7fe411523f530, type: 3}
+  rarity: 3
+  itemType: 0
+  hasGameObject: 1
+  gameObjectPrefab: {fileID: 462242269360304002, guid: 920c7238d0d676146983d69e9eb657d0,
+    type: 3}

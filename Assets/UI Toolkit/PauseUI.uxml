@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheet.uss?fileID=7433441132597879392&amp;guid=a319234e02ba08941983651cb0074a9f&amp;type=3#StyleSheet" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.78); justify-content: center; align-items: center;">
+        <ui:Label tabindex="-1" text="Game Paused" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 80%; color: rgb(255, 255, 255);" />
+        <ui:VisualElement style="align-items: auto; flex-direction: row;">
+            <ui:Button text="Resume" parse-escape-sequences="true" display-tooltip-when-elided="true" name="resumeButton" class="menu-button" />
+            <ui:Button text="I&apos;m Stuck!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stuckButton" class="menu-button" />
+            <ui:Button text="menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="menuButton" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

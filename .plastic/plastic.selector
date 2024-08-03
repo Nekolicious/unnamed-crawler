@@ -1,0 +1,4 @@
+repository "UnnamedCrawler@sabilihaqrafli@cloud"
+  path "/"
+    br "/main"
+    co "/main"

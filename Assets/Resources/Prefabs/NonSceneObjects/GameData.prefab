@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5569171589384284073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6458362169785786442}
+  - component: {fileID: 8092638260877229520}
+  m_Layer: 0
+  m_Name: GameData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6458362169785786442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5569171589384284073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.24749, y: 22.619106, z: -0.06618128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8092638260877229520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5569171589384284073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569febcde6939d841b326dcda47d745a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonHeight: 50
+  dungeonWidth: 50
+  minRoomHeight: 10
+  minRoomWidth: 10
+  level: 1
+  score: 0
+  dungeonChestInMap: 0
+  keyDropChance: 0
+  keyIsDropped: 0
+  onChestDestroyed: {fileID: 11400000, guid: fa8b38632535f9e40a5976bd907aff01, type: 2}
+  onKeyPickedUp: {fileID: 11400000, guid: a210721fdf5ca3747bd791ea4ce77770, type: 2}
+  onCoinPickedUp: {fileID: 11400000, guid: 917d4f66cc8108546a5436dc6866bcf7, type: 2}
+  chestCounter: {fileID: 11400000, guid: 2a655428746863e4994df7f5bb3d4fc3, type: 2}
+  enemyDefeated: {fileID: 11400000, guid: 5dcbf7834a0ad3342846a884dd1cf3c7, type: 2}
+  onKeyDropped: {fileID: 11400000, guid: 55e8d8d0bf521064192d460fc2c1f511, type: 2}
+  scoreChanged: {fileID: 11400000, guid: d388e4942089b3f42b448eaaf32d92ae, type: 2}
+  playerSpawnPoint: {x: 0, y: 0, z: 0}

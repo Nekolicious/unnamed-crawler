@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheet.uss?fileID=7433441132597879392&amp;guid=a319234e02ba08941983651cb0074a9f&amp;type=3#StyleSheet" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement class="menu-text" style="flex-grow: 1; align-self: flex-start; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; -unity-text-align: upper-center; justify-content: center;">
+            <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center;">
+                <ui:Label tabindex="-1" text="UNNAMED" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 150%;" />
+                <ui:Label tabindex="-1" text="ENDLESS DUNGEON CRAWLER GAME" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 30%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+                <ui:Button text="START" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start" class="menu-button" />
+                <ui:Button text="SETTING" parse-escape-sequences="true" display-tooltip-when-elided="true" name="setting" class="menu-button" />
+                <ui:Button text="Credit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="credit" class="menu-button" />
+                <ui:Button text="EXIT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit" class="menu-button" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; align-self: center; justify-content: flex-end;">
+                <ui:Label tabindex="-1" text="1197050123" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 30%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; width: 50%; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px;">
+            <ui:VisualElement style="flex-grow: 1; justify-content: flex-end;">
+                <ui:Label tabindex="-1" text="High Score : " parse-escape-sequences="true" display-tooltip-when-elided="true" name="highScore" class="menu-text" style="font-size: 30%; -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
