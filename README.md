@@ -10,4 +10,4 @@ It's main purpose is for my college research.
 
 # How to Play
 1. Use WASD to move, LMB to attack
-2. Get as high a score as you can!
+2. Get high score as you can!
