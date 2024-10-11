@@ -1,5 +1,5 @@
 # About
-A simple dungeon crawler game implementing Procedural Content Generation for its map generation.
+A simple dungeon crawler game implementing Random Walk and Binary Space Partitioning as Procedural Content Generation for its map generation.
 
 It's main purpose is for my college research.
 
